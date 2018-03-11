@@ -1,0 +1,1490 @@
+The system is: Linux - 4.13.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/predator/Documents/Project/temp/libtiff/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac0d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac0d7.dir/build.make CMakeFiles/cmTC_ac0d7.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac0d7.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ac0d7.dir/testCCompiler.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ac0d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac0d7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ac0d7.dir/testCCompiler.c.o  -o cmTC_ac0d7 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4178/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4178.dir/build.make CMakeFiles/cmTC_a4178.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a4178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4178.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o  -o cmTC_a4178 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4178' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc35rgNm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a4178 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a4178/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a4178.dir/build.make CMakeFiles/cmTC_a4178.dir/build]
+  ignore line: [make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a4178]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4178.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o  -o cmTC_a4178 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4178' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc35rgNm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a4178 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc35rgNm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a4178] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_a4178.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c43b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c43b.dir/build.make CMakeFiles/cmTC_8c43b.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c43b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_8c43b.dir/feature_tests.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8c43b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c43b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8c43b.dir/feature_tests.c.o  -o cmTC_8c43b -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94b62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94b62.dir/build.make CMakeFiles/cmTC_94b62.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94b62.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_94b62.dir/feature_tests.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/feature_tests.c
+Linking C executable cmTC_94b62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94b62.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_94b62.dir/feature_tests.c.o  -o cmTC_94b62 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd210/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd210.dir/build.make CMakeFiles/cmTC_cd210.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd210.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_cd210.dir/feature_tests.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cd210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd210.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_cd210.dir/feature_tests.c.o  -o cmTC_cd210 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test C_FLAG_Wall succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75e84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75e84.dir/build.make CMakeFiles/cmTC_75e84.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75e84.dir/src.c.o
+/usr/bin/cc    -DC_FLAG_Wall   -Wall -o CMakeFiles/cmTC_75e84.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75e84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75e84.dir/link.txt --verbose=1
+/usr/bin/cc   -DC_FLAG_Wall    CMakeFiles/cmTC_75e84.dir/src.c.o  -o cmTC_75e84 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Winline succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44c9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44c9d.dir/build.make CMakeFiles/cmTC_44c9d.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44c9d.dir/src.c.o
+/usr/bin/cc    -Wall -DC_FLAG_Winline   -Winline -o CMakeFiles/cmTC_44c9d.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_44c9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44c9d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DC_FLAG_Winline    CMakeFiles/cmTC_44c9d.dir/src.c.o  -o cmTC_44c9d -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_W succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9b44/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9b44.dir/build.make CMakeFiles/cmTC_a9b44.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9b44.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -DC_FLAG_W   -W -o CMakeFiles/cmTC_a9b44.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a9b44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b44.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -DC_FLAG_W    CMakeFiles/cmTC_a9b44.dir/src.c.o  -o cmTC_a9b44 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wformat_security succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27620/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27620.dir/build.make CMakeFiles/cmTC_27620.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27620.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -DC_FLAG_Wformat_security   -Wformat-security -o CMakeFiles/cmTC_27620.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_27620
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27620.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -DC_FLAG_Wformat_security    CMakeFiles/cmTC_27620.dir/src.c.o  -o cmTC_27620 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wpointer_arith succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8d71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8d71.dir/build.make CMakeFiles/cmTC_b8d71.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8d71.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -DC_FLAG_Wpointer_arith   -Wpointer-arith -o CMakeFiles/cmTC_b8d71.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b8d71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8d71.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -DC_FLAG_Wpointer_arith    CMakeFiles/cmTC_b8d71.dir/src.c.o  -o cmTC_b8d71 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wdisabled_optimization succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_663f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_663f2.dir/build.make CMakeFiles/cmTC_663f2.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_663f2.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -DC_FLAG_Wdisabled_optimization   -Wdisabled-optimization -o CMakeFiles/cmTC_663f2.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_663f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_663f2.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -DC_FLAG_Wdisabled_optimization    CMakeFiles/cmTC_663f2.dir/src.c.o  -o cmTC_663f2 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wno_unknown_pragmas succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcbfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcbfd.dir/build.make CMakeFiles/cmTC_dcbfd.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcbfd.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -DC_FLAG_Wno_unknown_pragmas   -Wno-unknown-pragmas -o CMakeFiles/cmTC_dcbfd.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dcbfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbfd.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -DC_FLAG_Wno_unknown_pragmas    CMakeFiles/cmTC_dcbfd.dir/src.c.o  -o cmTC_dcbfd -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_Wdeclaration_after_statement succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da745/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da745.dir/build.make CMakeFiles/cmTC_da745.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da745.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -DC_FLAG_Wdeclaration_after_statement   -Wdeclaration-after-statement -o CMakeFiles/cmTC_da745.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_da745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da745.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -DC_FLAG_Wdeclaration_after_statement    CMakeFiles/cmTC_da745.dir/src.c.o  -o cmTC_da745 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_fstrict_aliasing succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7242/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7242.dir/build.make CMakeFiles/cmTC_c7242.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7242.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -DC_FLAG_fstrict_aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_c7242.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c7242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7242.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -DC_FLAG_fstrict_aliasing    CMakeFiles/cmTC_c7242.dir/src.c.o  -o cmTC_c7242 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ff37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ff37.dir/build.make CMakeFiles/cmTC_2ff37.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ff37.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script=/home/predator/Documents/Project/temp/libtiff/conftest.map   -o CMakeFiles/cmTC_2ff37.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2ff37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ff37.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script=/home/predator/Documents/Project/temp/libtiff/conftest.map    CMakeFiles/cmTC_2ff37.dir/src.c.o  -o cmTC_2ff37 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void){return 0;}
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd9e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd9e0.dir/build.make CMakeFiles/cmTC_dd9e0.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd9e0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_dd9e0.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dd9e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd9e0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_dd9e0.dir/CheckIncludeFile.c.o  -o cmTC_dd9e0 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04812/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04812.dir/build.make CMakeFiles/cmTC_04812.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04812.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_04812.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_04812
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04812.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_04812.dir/CheckIncludeFile.c.o  -o cmTC_04812 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f90bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f90bf.dir/build.make CMakeFiles/cmTC_f90bf.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f90bf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_f90bf.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f90bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f90bf.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_f90bf.dir/CheckIncludeFile.c.o  -o cmTC_f90bf -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9486c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9486c.dir/build.make CMakeFiles/cmTC_9486c.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9486c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_9486c.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9486c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9486c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_9486c.dir/CheckIncludeFile.c.o  -o cmTC_9486c -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faa43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_faa43.dir/build.make CMakeFiles/cmTC_faa43.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faa43.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_faa43.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_faa43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa43.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_faa43.dir/CheckIncludeFile.c.o  -o cmTC_faa43 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87b2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87b2f.dir/build.make CMakeFiles/cmTC_87b2f.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87b2f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_87b2f.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_87b2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87b2f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_87b2f.dir/CheckIncludeFile.c.o  -o cmTC_87b2f -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53195/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53195.dir/build.make CMakeFiles/cmTC_53195.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53195.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_53195.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_53195
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53195.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_53195.dir/CheckIncludeFile.c.o  -o cmTC_53195 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c351/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c351.dir/build.make CMakeFiles/cmTC_6c351.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c351.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_6c351.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6c351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c351.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_6c351.dir/CheckIncludeFile.c.o  -o cmTC_6c351 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_376c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_376c8.dir/build.make CMakeFiles/cmTC_376c8.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_376c8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_376c8.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_376c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_376c8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_376c8.dir/CheckIncludeFile.c.o  -o cmTC_376c8 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_376e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_376e0.dir/build.make CMakeFiles/cmTC_376e0.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_376e0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_376e0.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_376e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_376e0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_376e0.dir/CheckIncludeFile.c.o  -o cmTC_376e0 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d899a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d899a.dir/build.make CMakeFiles/cmTC_d899a.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d899a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_d899a.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d899a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d899a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_d899a.dir/CheckIncludeFile.c.o  -o cmTC_d899a -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2890/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2890.dir/build.make CMakeFiles/cmTC_d2890.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2890.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_d2890.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d2890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2890.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_d2890.dir/CheckIncludeFile.c.o  -o cmTC_d2890 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb921/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb921.dir/build.make CMakeFiles/cmTC_fb921.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb921.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_fb921.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fb921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb921.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_fb921.dir/CheckIncludeFile.c.o  -o cmTC_fb921 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b520/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b520.dir/build.make CMakeFiles/cmTC_9b520.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b520.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_9b520.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9b520
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b520.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_9b520.dir/CheckIncludeFile.c.o  -o cmTC_9b520 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f994a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f994a.dir/build.make CMakeFiles/cmTC_f994a.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f994a.dir/src.c.o
+/usr/bin/cc  -Dinline=inline  -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DC_HAS_inline   -o CMakeFiles/cmTC_f994a.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c:5:22: warning: unused parameter ‘argc’ [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                      ^
+/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c:5:34: warning: unused parameter ‘argv’ [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                                  ^
+Linking C executable cmTC_f994a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f994a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DC_HAS_inline    CMakeFiles/cmTC_f994a.dir/src.c.o  -o cmTC_f994a -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Performing C SOURCE FILE Test TIME_WITH_SYS_TIME succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e0cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e0cb.dir/build.make CMakeFiles/cmTC_0e0cb.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e0cb.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DTIME_WITH_SYS_TIME   -o CMakeFiles/cmTC_0e0cb.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0e0cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e0cb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DTIME_WITH_SYS_TIME    CMakeFiles/cmTC_0e0cb.dir/src.c.o  -o cmTC_0e0cb -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/time.h>
+#include <time.h>
+int main(void){return 0;}
+Performing C SOURCE FILE Test TM_IN_SYS_TIME succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9af19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9af19.dir/build.make CMakeFiles/cmTC_9af19.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9af19.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DTM_IN_SYS_TIME   -o CMakeFiles/cmTC_9af19.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9af19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9af19.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DTM_IN_SYS_TIME    CMakeFiles/cmTC_9af19.dir/src.c.o  -o cmTC_9af19 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/types.h>
+#include <time.h>
+
+int main(void){
+  struct tm tm;
+  int *p = &tm.tm_sec;
+  return !p;
+}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2207/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2207.dir/build.make CMakeFiles/cmTC_a2207.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2207.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_a2207.dir/CheckIncludeFile.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a2207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2207.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_a2207.dir/CheckIncludeFile.c.o  -o cmTC_a2207 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed short passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97e60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97e60.dir/build.make CMakeFiles/cmTC_97e60.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97e60.dir/SIZEOF_SIGNED_SHORT.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_97e60.dir/SIZEOF_SIGNED_SHORT.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_97e60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97e60.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_97e60.dir/SIZEOF_SIGNED_SHORT.c.o  -o cmTC_97e60 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6b87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6b87.dir/build.make CMakeFiles/cmTC_f6b87.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6b87.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_f6b87.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_f6b87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6b87.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_f6b87.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_f6b87 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bf89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bf89.dir/build.make CMakeFiles/cmTC_1bf89.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bf89.dir/SIZEOF_SIGNED_INT.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_1bf89.dir/SIZEOF_SIGNED_INT.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_1bf89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bf89.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_1bf89.dir/SIZEOF_SIGNED_INT.c.o  -o cmTC_1bf89 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc5b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc5b2.dir/build.make CMakeFiles/cmTC_bc5b2.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc5b2.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_bc5b2.dir/SIZEOF_UNSIGNED_INT.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_bc5b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc5b2.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_bc5b2.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_bc5b2 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef8d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef8d8.dir/build.make CMakeFiles/cmTC_ef8d8.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef8d8.dir/SIZEOF_SIGNED_LONG.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_ef8d8.dir/SIZEOF_SIGNED_LONG.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_ef8d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef8d8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_ef8d8.dir/SIZEOF_SIGNED_LONG.c.o  -o cmTC_ef8d8 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f167/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f167.dir/build.make CMakeFiles/cmTC_5f167.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f167.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_5f167.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_5f167
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f167.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_5f167.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_5f167 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f654f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f654f.dir/build.make CMakeFiles/cmTC_f654f.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f654f.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_f654f.dir/SIZEOF_SIGNED_LONG_LONG.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_f654f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f654f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_f654f.dir/SIZEOF_SIGNED_LONG_LONG.c.o  -o cmTC_f654f -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83d6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83d6f.dir/build.make CMakeFiles/cmTC_83d6f.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83d6f.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_83d6f.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_83d6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d6f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_83d6f.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_83d6f -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1d4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1d4f.dir/build.make CMakeFiles/cmTC_f1d4f.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1d4f.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_f1d4f.dir/SIZEOF_UNSIGNED_CHAR_P.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_f1d4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1d4f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_f1d4f.dir/SIZEOF_UNSIGNED_CHAR_P.c.o  -o cmTC_f1d4f -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afc73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afc73.dir/build.make CMakeFiles/cmTC_afc73.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afc73.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_afc73.dir/SIZEOF_SIZE_T.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_afc73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afc73.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_afc73.dir/SIZEOF_SIZE_T.c.o  -o cmTC_afc73 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16cf4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16cf4.dir/build.make CMakeFiles/cmTC_16cf4.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16cf4.dir/SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_16cf4.dir/SIZEOF_PTRDIFF_T.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_16cf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16cf4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_16cf4.dir/SIZEOF_PTRDIFF_T.c.o  -o cmTC_16cf4 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f972/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f972.dir/build.make CMakeFiles/cmTC_7f972.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f972.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_7f972.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_7f972
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f972.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTC_7f972.dir/CheckFunctionExists.c.o  -o cmTC_7f972 -rdynamic -lm 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbea3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbea3.dir/build.make CMakeFiles/cmTC_cbea3.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbea3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_cbea3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_cbea3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbea3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTC_cbea3.dir/CheckFunctionExists.c.o  -o cmTC_cbea3 -rdynamic -lm 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65e2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65e2e.dir/build.make CMakeFiles/cmTC_65e2e.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65e2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_65e2e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_65e2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e2e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=sqrt    CMakeFiles/cmTC_65e2e.dir/CheckFunctionExists.c.o  -o cmTC_65e2e -rdynamic -lm 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b3a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b3a0.dir/build.make CMakeFiles/cmTC_5b3a0.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b3a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=isascii   -o CMakeFiles/cmTC_5b3a0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘isascii’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_5b3a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b3a0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=isascii    CMakeFiles/cmTC_5b3a0.dir/CheckFunctionExists.c.o  -o cmTC_5b3a0 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6da06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6da06.dir/build.make CMakeFiles/cmTC_6da06.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6da06.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_6da06.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_6da06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6da06.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=memmove    CMakeFiles/cmTC_6da06.dir/CheckFunctionExists.c.o  -o cmTC_6da06 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_414ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_414ec.dir/build.make CMakeFiles/cmTC_414ec.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_414ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_414ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_414ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414ec.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTC_414ec.dir/CheckFunctionExists.c.o  -o cmTC_414ec -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cee55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cee55.dir/build.make CMakeFiles/cmTC_cee55.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cee55.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_cee55.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cee55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee55.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTC_cee55.dir/CheckFunctionExists.c.o  -o cmTC_cee55 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea349/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea349.dir/build.make CMakeFiles/cmTC_ea349.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea349.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_ea349.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_ea349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea349.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTC_ea349.dir/CheckFunctionExists.c.o  -o cmTC_ea349 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fea80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fea80.dir/build.make CMakeFiles/cmTC_fea80.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fea80.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_fea80.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_fea80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea80.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strchr    CMakeFiles/cmTC_fea80.dir/CheckFunctionExists.c.o  -o cmTC_fea80 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0584/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0584.dir/build.make CMakeFiles/cmTC_f0584.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0584.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_f0584.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_f0584
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0584.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strrchr    CMakeFiles/cmTC_f0584.dir/CheckFunctionExists.c.o  -o cmTC_f0584 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0763/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0763.dir/build.make CMakeFiles/cmTC_c0763.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0763.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_c0763.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_c0763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0763.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strstr    CMakeFiles/cmTC_c0763.dir/CheckFunctionExists.c.o  -o cmTC_c0763 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1c8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1c8a.dir/build.make CMakeFiles/cmTC_e1c8a.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1c8a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_e1c8a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e1c8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c8a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTC_e1c8a.dir/CheckFunctionExists.c.o  -o cmTC_e1c8a -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_100e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_100e0.dir/build.make CMakeFiles/cmTC_100e0.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_100e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_100e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_100e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_100e0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTC_100e0.dir/CheckFunctionExists.c.o  -o cmTC_100e0 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9472a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9472a.dir/build.make CMakeFiles/cmTC_9472a.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9472a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_9472a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9472a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9472a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTC_9472a.dir/CheckFunctionExists.c.o  -o cmTC_9472a -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebccb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebccb.dir/build.make CMakeFiles/cmTC_ebccb.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebccb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTC_ebccb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ebccb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebccb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=getopt    CMakeFiles/cmTC_ebccb.dir/CheckFunctionExists.c.o  -o cmTC_ebccb -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7686/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7686.dir/build.make CMakeFiles/cmTC_f7686.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7686.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lfind   -o CMakeFiles/cmTC_f7686.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7686
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7686.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lfind    CMakeFiles/cmTC_f7686.dir/CheckFunctionExists.c.o  -o cmTC_f7686 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12662/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12662.dir/build.make CMakeFiles/cmTC_12662.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12662.dir/src.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DHAVE_SNPRINTF   -o CMakeFiles/cmTC_12662.dir/src.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_12662
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12662.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DHAVE_SNPRINTF    CMakeFiles/cmTC_12662.dir/src.c.o  -o cmTC_12662 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e614d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e614d.dir/build.make CMakeFiles/cmTC_e614d.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e614d.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing    -o CMakeFiles/cmTC_e614d.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_e614d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e614d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing     CMakeFiles/cmTC_e614d.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_e614d -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jbg_newlen exists passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28984/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28984.dir/build.make CMakeFiles/cmTC_28984.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28984.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=jbg_newlen   -o CMakeFiles/cmTC_28984.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28984
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28984.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=jbg_newlen    CMakeFiles/cmTC_28984.dir/CheckFunctionExists.c.o  -o cmTC_28984 -rdynamic /usr/lib/x86_64-linux-gnu/libjbig.so 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lzma_auto_decoder exists in the /usr/lib/x86_64-linux-gnu/liblzma.so passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51afa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51afa.dir/build.make CMakeFiles/cmTC_51afa.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51afa.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder   -o CMakeFiles/cmTC_51afa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_51afa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51afa.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder    CMakeFiles/cmTC_51afa.dir/CheckFunctionExists.c.o  -o cmTC_51afa -rdynamic /usr/lib/x86_64-linux-gnu/liblzma.so 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lzma_easy_encoder exists in the /usr/lib/x86_64-linux-gnu/liblzma.so passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1375/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1375.dir/build.make CMakeFiles/cmTC_b1375.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1375.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder   -o CMakeFiles/cmTC_b1375.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1375
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1375.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder    CMakeFiles/cmTC_b1375.dir/CheckFunctionExists.c.o  -o cmTC_b1375 -rdynamic /usr/lib/x86_64-linux-gnu/liblzma.so 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lzma_lzma_preset exists in the /usr/lib/x86_64-linux-gnu/liblzma.so passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1814/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1814.dir/build.make CMakeFiles/cmTC_c1814.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1814.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset   -o CMakeFiles/cmTC_c1814.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1814
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1814.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Winline -W -Wformat-security -Wpointer-arith -Wdisabled-optimization -Wno-unknown-pragmas -Wdeclaration-after-statement -fstrict-aliasing -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset    CMakeFiles/cmTC_c1814.dir/CheckFunctionExists.c.o  -o cmTC_c1814 -rdynamic /usr/lib/x86_64-linux-gnu/liblzma.so 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/predator/Documents/Project/temp/libtiff/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d301d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d301d.dir/build.make CMakeFiles/cmTC_d301d.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d301d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_d301d.dir/testCXXCompiler.cxx.o -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d301d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d301d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d301d.dir/testCXXCompiler.cxx.o  -o cmTC_d301d -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_575d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_575d1.dir/build.make CMakeFiles/cmTC_575d1.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_575d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_575d1.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_575d1 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_575d1' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnnEXuy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_575d1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_575d1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_575d1.dir/build.make CMakeFiles/cmTC_575d1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_575d1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_575d1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_575d1 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_575d1' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnnEXuy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_575d1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnnEXuy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_575d1] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_575d1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65b1d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65b1d.dir/build.make CMakeFiles/cmTC_65b1d.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65b1d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_65b1d.dir/feature_tests.cxx.o -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_65b1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65b1d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_65b1d.dir/feature_tests.cxx.o  -o cmTC_65b1d -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a928a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a928a.dir/build.make CMakeFiles/cmTC_a928a.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a928a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_a928a.dir/feature_tests.cxx.o -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a928a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a928a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_a928a.dir/feature_tests.cxx.o  -o cmTC_a928a -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35773/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35773.dir/build.make CMakeFiles/cmTC_35773.dir/build
+make[1]: Entering directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35773.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_35773.dir/feature_tests.cxx.o -c /home/predator/Documents/Project/temp/libtiff/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_35773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35773.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_35773.dir/feature_tests.cxx.o  -o cmTC_35773 -rdynamic 
+make[1]: Leaving directory '/home/predator/Documents/Project/temp/libtiff/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

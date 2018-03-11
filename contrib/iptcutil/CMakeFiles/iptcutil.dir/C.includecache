@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/predator/Documents/Project/temp/libtiff/contrib/iptcutil/iptcutil.c
+tif_config.h
+/home/predator/Documents/Project/temp/libtiff/contrib/iptcutil/tif_config.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+strings.h
+-
+io.h
+-
+fcntl.h
+-
+
+libtiff/tif_config.h
+

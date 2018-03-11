@@ -1,0 +1,201 @@
+Scanning dependencies of target port
+[  1%] Building C object port/CMakeFiles/port.dir/dummy.c.o
+[  2%] Linking C static library libport.a
+[  2%] Built target port
+Scanning dependencies of target tiff
+[  3%] Building C object libtiff/CMakeFiles/tiff.dir/tif_aux.c.o
+[  4%] Building C object libtiff/CMakeFiles/tiff.dir/tif_close.c.o
+[  4%] Building C object libtiff/CMakeFiles/tiff.dir/tif_codec.c.o
+[  5%] Building C object libtiff/CMakeFiles/tiff.dir/tif_color.c.o
+[  6%] Building C object libtiff/CMakeFiles/tiff.dir/tif_compress.c.o
+[  7%] Building C object libtiff/CMakeFiles/tiff.dir/tif_dir.c.o
+[  8%] Building C object libtiff/CMakeFiles/tiff.dir/tif_dirinfo.c.o
+[  8%] Building C object libtiff/CMakeFiles/tiff.dir/tif_dirread.c.o
+[  9%] Building C object libtiff/CMakeFiles/tiff.dir/tif_dirwrite.c.o
+[ 10%] Building C object libtiff/CMakeFiles/tiff.dir/tif_dumpmode.c.o
+[ 11%] Building C object libtiff/CMakeFiles/tiff.dir/tif_error.c.o
+[ 12%] Building C object libtiff/CMakeFiles/tiff.dir/tif_extension.c.o
+[ 12%] Building C object libtiff/CMakeFiles/tiff.dir/tif_fax3.c.o
+[ 13%] Building C object libtiff/CMakeFiles/tiff.dir/tif_fax3sm.c.o
+[ 14%] Building C object libtiff/CMakeFiles/tiff.dir/tif_flush.c.o
+[ 15%] Building C object libtiff/CMakeFiles/tiff.dir/tif_getimage.c.o
+[ 16%] Building C object libtiff/CMakeFiles/tiff.dir/tif_jbig.c.o
+[ 17%] Building C object libtiff/CMakeFiles/tiff.dir/tif_jpeg.c.o
+[ 17%] Building C object libtiff/CMakeFiles/tiff.dir/tif_jpeg_12.c.o
+[ 18%] Building C object libtiff/CMakeFiles/tiff.dir/tif_luv.c.o
+[ 19%] Building C object libtiff/CMakeFiles/tiff.dir/tif_lzma.c.o
+[ 20%] Building C object libtiff/CMakeFiles/tiff.dir/tif_lzw.c.o
+[ 21%] Building C object libtiff/CMakeFiles/tiff.dir/tif_next.c.o
+[ 21%] Building C object libtiff/CMakeFiles/tiff.dir/tif_ojpeg.c.o
+[ 22%] Building C object libtiff/CMakeFiles/tiff.dir/tif_open.c.o
+[ 23%] Building C object libtiff/CMakeFiles/tiff.dir/tif_packbits.c.o
+[ 24%] Building C object libtiff/CMakeFiles/tiff.dir/tif_pixarlog.c.o
+[ 25%] Building C object libtiff/CMakeFiles/tiff.dir/tif_predict.c.o
+[ 25%] Building C object libtiff/CMakeFiles/tiff.dir/tif_print.c.o
+[ 26%] Building C object libtiff/CMakeFiles/tiff.dir/tif_read.c.o
+[ 27%] Building C object libtiff/CMakeFiles/tiff.dir/tif_strip.c.o
+[ 28%] Building C object libtiff/CMakeFiles/tiff.dir/tif_swab.c.o
+[ 29%] Building C object libtiff/CMakeFiles/tiff.dir/tif_thunder.c.o
+[ 30%] Building C object libtiff/CMakeFiles/tiff.dir/tif_tile.c.o
+[ 30%] Building C object libtiff/CMakeFiles/tiff.dir/tif_version.c.o
+[ 31%] Building C object libtiff/CMakeFiles/tiff.dir/tif_warning.c.o
+[ 32%] Building C object libtiff/CMakeFiles/tiff.dir/tif_write.c.o
+[ 33%] Building C object libtiff/CMakeFiles/tiff.dir/tif_zip.c.o
+[ 34%] Building C object libtiff/CMakeFiles/tiff.dir/tif_unix.c.o
+[ 34%] Building C object libtiff/CMakeFiles/tiff.dir/__/port/dummy.c.o
+[ 35%] Linking C shared library libtiff.so
+[ 35%] Built target tiff
+Scanning dependencies of target tiffxx
+[ 36%] Building CXX object libtiff/CMakeFiles/tiffxx.dir/tif_stream.cxx.o
+[ 37%] Linking CXX shared library libtiffxx.so
+[ 37%] Built target tiffxx
+Scanning dependencies of target tiffsplit
+[ 38%] Building C object tools/CMakeFiles/tiffsplit.dir/tiffsplit.c.o
+[ 39%] Linking C executable tiffsplit
+[ 39%] Built target tiffsplit
+Scanning dependencies of target tiff2rgba
+[ 39%] Building C object tools/CMakeFiles/tiff2rgba.dir/tiff2rgba.c.o
+[ 40%] Linking C executable tiff2rgba
+[ 40%] Built target tiff2rgba
+Scanning dependencies of target ppm2tiff
+[ 41%] Building C object tools/CMakeFiles/ppm2tiff.dir/ppm2tiff.c.o
+[ 41%] Linking C executable ppm2tiff
+[ 41%] Built target ppm2tiff
+Scanning dependencies of target tiff2ps
+[ 42%] Building C object tools/CMakeFiles/tiff2ps.dir/tiff2ps.c.o
+[ 43%] Linking C executable tiff2ps
+[ 43%] Built target tiff2ps
+Scanning dependencies of target tiffcp
+[ 44%] Building C object tools/CMakeFiles/tiffcp.dir/tiffcp.c.o
+[ 44%] Linking C executable tiffcp
+[ 44%] Built target tiffcp
+Scanning dependencies of target tiffdither
+[ 45%] Building C object tools/CMakeFiles/tiffdither.dir/tiffdither.c.o
+[ 46%] Linking C executable tiffdither
+[ 46%] Built target tiffdither
+Scanning dependencies of target tiffinfo
+[ 47%] Building C object tools/CMakeFiles/tiffinfo.dir/tiffinfo.c.o
+[ 48%] Linking C executable tiffinfo
+[ 48%] Built target tiffinfo
+Scanning dependencies of target pal2rgb
+[ 48%] Building C object tools/CMakeFiles/pal2rgb.dir/pal2rgb.c.o
+[ 49%] Linking C executable pal2rgb
+[ 49%] Built target pal2rgb
+Scanning dependencies of target ras2tiff
+[ 50%] Building C object tools/CMakeFiles/ras2tiff.dir/ras2tiff.c.o
+[ 51%] Linking C executable ras2tiff
+[ 51%] Built target ras2tiff
+Scanning dependencies of target rgb2ycbcr
+[ 52%] Building C object tools/CMakeFiles/rgb2ycbcr.dir/rgb2ycbcr.c.o
+[ 53%] Linking C executable rgb2ycbcr
+[ 53%] Built target rgb2ycbcr
+Scanning dependencies of target tiff2bw
+[ 54%] Building C object tools/CMakeFiles/tiff2bw.dir/tiff2bw.c.o
+[ 54%] Linking C executable tiff2bw
+[ 54%] Built target tiff2bw
+Scanning dependencies of target raw2tiff
+[ 55%] Building C object tools/CMakeFiles/raw2tiff.dir/raw2tiff.c.o
+[ 56%] Linking C executable raw2tiff
+[ 56%] Built target raw2tiff
+Scanning dependencies of target thumbnail
+[ 57%] Building C object tools/CMakeFiles/thumbnail.dir/thumbnail.c.o
+[ 58%] Linking C executable thumbnail
+[ 58%] Built target thumbnail
+Scanning dependencies of target bmp2tiff
+[ 59%] Building C object tools/CMakeFiles/bmp2tiff.dir/bmp2tiff.c.o
+[ 60%] Linking C executable bmp2tiff
+[ 60%] Built target bmp2tiff
+Scanning dependencies of target fax2ps
+[ 60%] Building C object tools/CMakeFiles/fax2ps.dir/fax2ps.c.o
+[ 61%] Linking C executable fax2ps
+[ 61%] Built target fax2ps
+Scanning dependencies of target fax2tiff
+[ 62%] Building C object tools/CMakeFiles/fax2tiff.dir/fax2tiff.c.o
+[ 63%] Linking C executable fax2tiff
+[ 63%] Built target fax2tiff
+Scanning dependencies of target tiffcmp
+[ 64%] Building C object tools/CMakeFiles/tiffcmp.dir/tiffcmp.c.o
+[ 65%] Linking C executable tiffcmp
+[ 65%] Built target tiffcmp
+Scanning dependencies of target gif2tiff
+[ 66%] Building C object tools/CMakeFiles/gif2tiff.dir/gif2tiff.c.o
+[ 67%] Linking C executable gif2tiff
+[ 67%] Built target gif2tiff
+Scanning dependencies of target tiffset
+[ 67%] Building C object tools/CMakeFiles/tiffset.dir/tiffset.c.o
+[ 68%] Linking C executable tiffset
+[ 68%] Built target tiffset
+Scanning dependencies of target tiff2pdf
+[ 69%] Building C object tools/CMakeFiles/tiff2pdf.dir/tiff2pdf.c.o
+[ 70%] Linking C executable tiff2pdf
+[ 70%] Built target tiff2pdf
+Scanning dependencies of target tiffcrop
+[ 71%] Building C object tools/CMakeFiles/tiffcrop.dir/tiffcrop.c.o
+[ 72%] Linking C executable tiffcrop
+[ 72%] Built target tiffcrop
+Scanning dependencies of target tiffdump
+[ 73%] Building C object tools/CMakeFiles/tiffdump.dir/tiffdump.c.o
+[ 73%] Linking C executable tiffdump
+[ 73%] Built target tiffdump
+Scanning dependencies of target tiffmedian
+[ 74%] Building C object tools/CMakeFiles/tiffmedian.dir/tiffmedian.c.o
+[ 75%] Linking C executable tiffmedian
+[ 75%] Built target tiffmedian
+Scanning dependencies of target strip_rw
+[ 76%] Building C object test/CMakeFiles/strip_rw.dir/strip_rw.c.o
+[ 77%] Building C object test/CMakeFiles/strip_rw.dir/strip.c.o
+[ 77%] Building C object test/CMakeFiles/strip_rw.dir/test_arrays.c.o
+[ 78%] Linking C executable strip_rw
+[ 78%] Built target strip_rw
+Scanning dependencies of target rewrite
+[ 79%] Building C object test/CMakeFiles/rewrite.dir/rewrite_tag.c.o
+[ 80%] Linking C executable rewrite
+[ 80%] Built target rewrite
+Scanning dependencies of target ascii_tag
+[ 81%] Building C object test/CMakeFiles/ascii_tag.dir/ascii_tag.c.o
+[ 81%] Linking C executable ascii_tag
+[ 81%] Built target ascii_tag
+Scanning dependencies of target long_tag
+[ 82%] Building C object test/CMakeFiles/long_tag.dir/long_tag.c.o
+[ 83%] Building C object test/CMakeFiles/long_tag.dir/check_tag.c.o
+[ 84%] Linking C executable long_tag
+[ 84%] Built target long_tag
+Scanning dependencies of target custom_dir
+[ 85%] Building C object test/CMakeFiles/custom_dir.dir/custom_dir.c.o
+[ 86%] Linking C executable custom_dir
+[ 86%] Built target custom_dir
+Scanning dependencies of target raw_decode
+[ 87%] Building C object test/CMakeFiles/raw_decode.dir/raw_decode.c.o
+[ 87%] Linking C executable raw_decode
+[ 87%] Built target raw_decode
+Scanning dependencies of target short_tag
+[ 87%] Building C object test/CMakeFiles/short_tag.dir/short_tag.c.o
+[ 88%] Building C object test/CMakeFiles/short_tag.dir/check_tag.c.o
+[ 89%] Linking C executable short_tag
+[ 89%] Built target short_tag
+Scanning dependencies of target addtiffo
+[ 89%] Building C object contrib/addtiffo/CMakeFiles/addtiffo.dir/addtiffo.c.o
+[ 90%] Building C object contrib/addtiffo/CMakeFiles/addtiffo.dir/tif_overview.c.o
+[ 91%] Building C object contrib/addtiffo/CMakeFiles/addtiffo.dir/tif_ovrcache.c.o
+[ 92%] Linking C executable addtiffo
+[ 92%] Built target addtiffo
+Scanning dependencies of target tiff-rgb
+[ 93%] Building C object contrib/dbs/CMakeFiles/tiff-rgb.dir/tiff-rgb.c.o
+[ 94%] Linking C executable tiff-rgb
+[ 94%] Built target tiff-rgb
+Scanning dependencies of target tiff-palette
+[ 95%] Building C object contrib/dbs/CMakeFiles/tiff-palette.dir/tiff-palette.c.o
+[ 96%] Linking C executable tiff-palette
+[ 96%] Built target tiff-palette
+Scanning dependencies of target tiff-grayscale
+[ 97%] Building C object contrib/dbs/CMakeFiles/tiff-grayscale.dir/tiff-grayscale.c.o
+[ 97%] Linking C executable tiff-grayscale
+[ 97%] Built target tiff-grayscale
+Scanning dependencies of target tiff-bi
+[ 98%] Building C object contrib/dbs/CMakeFiles/tiff-bi.dir/tiff-bi.c.o
+[ 99%] Linking C executable tiff-bi
+[ 99%] Built target tiff-bi
+Scanning dependencies of target iptcutil
+[ 99%] Building C object contrib/iptcutil/CMakeFiles/iptcutil.dir/iptcutil.c.o
+[100%] Linking C executable iptcutil
+[100%] Built target iptcutil
